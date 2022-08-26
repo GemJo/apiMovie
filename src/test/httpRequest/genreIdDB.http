@@ -1,0 +1,11 @@
+###
+# Register
+#@no-log
+#@no-cookie-jar
+
+GET {{protocol}}{{port}}{{api}}/movieDB/genre
+Accept: application/json
+Content-Type: application/json
+Cookie: token={{token}}
+
+{}

@@ -1,0 +1,9 @@
+###
+#@no-log
+#@no-cookie-jar
+
+GET {{protocol}}{{port}}{{api}}/genres
+Accept: application/json
+Content-Type: application/json
+
+{}

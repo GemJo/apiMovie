@@ -1,0 +1,10 @@
+###
+# Register
+#@no-log
+#@no-cookie-jar
+
+GET {{protocol}}{{port}}{{api}}/movies
+Accept: application/json
+Content-Type: application/json
+
+{}

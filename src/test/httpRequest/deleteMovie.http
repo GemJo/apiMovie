@@ -1,0 +1,10 @@
+###
+# Register
+#@no-log
+#@no-cookie-jar
+
+DELETE {{protocol}}{{port}}{{api}}/movie/9c67fecc-a1ae-4ede-8f31-86844e5ea1b7
+Accept: application/json
+Content-Type: application/json
+
+{}

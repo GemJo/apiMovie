@@ -1,0 +1,26 @@
+###
+# Register
+#@no-log
+#@no-cookie-jar
+
+PUT {{protocol}}{{port}}{{api}}/movie/35fa4b9d-f009-4bb8-ad96-149ce88f52a8
+Accept: application/json
+Content-Type: application/json
+
+{
+  "adult": false,
+  "cast": [],
+  "comment": "Test http",
+  "crew": [],
+  "genres": ["horror"],
+  "homepage": "",
+  "originalTitle": "The Exorcism of God",
+  "overview": "Un sacerdote estadounidense que trabaja en México es considerado un santo por muchos feligreses locales. Sin embargo, debido a un exorcismo fallido, guarda un secreto que lo está comiendo vivo hasta que tenga la oportunidad de enfrentarse a su demonio por última vez.",
+  "posterPath": "/wHA9cysdFmGDfIvu9iEpu19w9GK.jpg",
+  "productionCompanies": [],
+  "rating": 0,
+  "releaseDate": "2022-03-11",
+  "title": "El Exorcismo De Dios",
+  "viewed": false,
+  "id": "35fa4b9d-f009-4bb8-ad96-149ce88f52a7"
+}
